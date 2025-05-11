@@ -1,6 +1,11 @@
+img {
+	box-shadow: 2px 3px 8px #222;
+}
+
 .title {
 	font-family: 'Trebuchet MS', system-ui, sans-serif;
 	text-align: center;
+	text-shadow: 1px 1px 3px #aaa;
 }
 
 .title h1 {margin: 5% 0% 2.5%;}
@@ -8,6 +13,7 @@
 
 .text {
 	font-family: 'Times New Roman', serif;
+	text-shadow: 1px 1px 3px #aaa;
 }
 
 .row {
