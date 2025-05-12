@@ -1,9 +1,9 @@
 img {
-	box-shadow: 2px 3px 8px #222;
+	box-shadow: 3px 4px 12px #333;
 }
 
 .title {
-	font-family: 'Trebuchet MS', system-ui, sans-serif;
+	font-family: 'Segoe UI', 'Trebuchet MS', system-ui, sans-serif;
 	text-align: center;
 	text-shadow: 1px 1px 3px #ccc;
 }
@@ -36,7 +36,7 @@ img {
 	font-size: 12px;
 	font-family: 'Trebuchet MS', system-ui, sans-serif;
 	text-align: center;
-	margin: 25% 0% 1%;
+	margin: 35% 0% 1%;
 }
 
 /* Responsive scaling for 3 different resolutions. */
