@@ -1,0 +1,96 @@
+@font-face {
+	font-family: pixel;
+	src: url(YOSTER.TTF);
+}
+
+@font-face {
+	font-family: dyslexic;
+	src:url(OPENDYSLEXIC-REGULAR.OTF);
+}
+
+html {
+	background-image: linear-gradient(to bottom, #86be90, #0f360f);
+	height: 100%;
+
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Trebuchet MS', 'Segoe UI', 'Helvetica', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.banner {
+	color: white;
+	text-align: center;
+	font-size: xx-large;
+	font-family: dyslexic, Helvetica, Georgia, Verdana, Arial, sans-serif;
+	text-shadow: 2px 2px 10px #cae6cf;
+}
+
+.page {
+	height: 100%;
+	margin: 0 20%;
+	padding: 0 0 10% 0;
+
+	border-radius: 12px;
+	background-color: white;
+}
+
+[data-tab-content] {
+	display: none;
+}
+
+.active[data-tab-content] {
+	display: block;
+}
+
+.tabs {
+	display: flex;
+
+	user-select: none;
+
+	margin: 0;
+	padding: 0;
+
+	font-family: pixel, Helvetica, 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+	font-size: x-large;
+	
+	justify-content: space-around;
+	list-style-type: none;
+
+	border-radius: 12px 12px 0 0;
+
+	background-image: linear-gradient(to left, #2c4ea4, #00afbd, #fddfa8, #e61526);
+}
+
+.tab {
+	cursor: pointer;
+
+	padding: 1.5% 0 1% 0;
+	
+	flex: 1;
+
+	text-align: center;
+
+	border-radius: 10px 10px 0 0;
+	border-bottom: 1px dotted black;
+}
+
+.tab-content {
+	padding: 10% 10% 0;
+}
+
+.tab:hover {
+	box-shadow: 0px 4px 5px silver;
+	background-color: #DDD;
+}
+
+.tab.active {
+	box-shadow: 0px 4px 5px silver;
+	border-bottom: 0;
+	background-color: white;
+}
