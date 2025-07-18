@@ -1,11 +1,11 @@
 @font-face {
 	font-family: dyslexic;
-	src:url(OPENDYSLEXIC-REGULAR.OTF);
+	src:url(fonts/OPENDYSLEXIC-REGULAR.OTF);
 }
 
 @font-face {
 	font-family: pixel;
-	src: url(YOSTER.TTF);
+	src: url(fonts/YOSTER.TTF);
 }
 
 html {
@@ -25,6 +25,16 @@ body {
 	padding: 0;
 }
 
+header {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
 .banner {
 	margin: 0;
 	padding: 0 0 25px 0;
@@ -32,7 +42,7 @@ body {
 	text-align: center;
 	text-shadow: 0 10px 10px #296136;
 
-	font-size: 86px;
+	font-size: 42px;
 	font-weight: lighter;	
 	font-family: pixel, monospace;
 
@@ -45,7 +55,7 @@ body {
 
 	border-radius: 12px;
 
-	background-color: white;
+	background-color: #EEE;
 }
 
 .tabs {
@@ -78,11 +88,12 @@ body {
 	color: white;
 
 	border-radius: 10px 10px 0 0;
-	border-bottom: 1px dotted black;
+	border-bottom: 1.25px dotted black;
 }
 
 .tab-content {
-	padding: 2% 10% 0;
+	padding: 5% 10% 0;
+	line-height: 1.5rem;
 }
 
 .tab:hover {
