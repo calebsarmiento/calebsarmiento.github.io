@@ -54,7 +54,7 @@ body {
 	margin: 0;
 	padding: 0;
 
-	font-family: 'Fira Sans', monospace;
+	font-family: 'Trebuchet MS', 'Fira Sans', monospace;
 	font-size: x-large;
 	font-weight: bold;
 	
@@ -63,7 +63,7 @@ body {
 
 	border-radius: 12px 12px 0 0;
 
-	background-image: linear-gradient(to left, #274592, #009faa, #e3c896, #cf1322);
+	background-image: linear-gradient(to left, #274592, #009faa, #147814, #e3bc96, #cf1322);
 }
 
 .tab {
@@ -74,7 +74,6 @@ body {
 	flex: 1;
 
 	text-align: center;
-	text-shadow: 1px 1px 1px #a2a2a2;
 
 	color: white;
 
