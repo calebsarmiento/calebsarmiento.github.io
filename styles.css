@@ -42,7 +42,12 @@ header {
 
 h1 {
 	margin: 0;
-	padding: 0;
+	padding: 0 0 18px;
+}
+
+p {
+	margin: 0;
+	padding: 0 0 12px;
 }
 
 .banner {
@@ -143,4 +148,22 @@ h1 {
 	display: block;
 	margin: auto;
 	width: auto;
+}
+
+.fold-down {
+	summary {
+		font-family: pixel, monospace;
+		font-size: x-large;
+		padding: 12px 0;
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
+
+video {
+	display: block;
+	margin: 0 auto;
+	padding: 18px 0;
 }
