@@ -114,8 +114,8 @@ p {
 }
 
 .tab-content {
-	padding: 5% 10% 10%;
-	line-height: 1.5rem;
+	padding: 5% 5% 10%;
+	line-height: 1.25rem;
 }
 
 .tab-content img {
@@ -155,10 +155,7 @@ p {
 		font-family: pixel, monospace;
 		font-size: x-large;
 		padding: 12px 0;
-	}
-
-	a {
-		text-decoration: none;
+		cursor: pointer;
 	}
 }
 
